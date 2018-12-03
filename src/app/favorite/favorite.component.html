@@ -1,0 +1,13 @@
+<p>
+  favorite works!
+</p>
+
+<button
+  class="btn"
+  [class.btn-primary]="isFavorite"
+  [class.btn-success]="!isFavorite"
+  (click)="onClick()"
+
+>
+click me
+</button>

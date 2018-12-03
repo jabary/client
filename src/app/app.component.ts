@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'client';
+
+  post = {
+    title: "post title",
+    isFavorite: true
+  }
+
+  favoriteChange(isFavorite){
+    console.log("Favorite changed" + isFavorite );
+  }
 }
